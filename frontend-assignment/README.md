@@ -39,7 +39,7 @@ This project is a comprehensive **User Management System** built with **React.js
  
 
 
-```
+
 ## Start the Application
 Launch the development server using the following command:
 npm start (don't forget to install react-scripts first if you haven't done so already)
