@@ -49,7 +49,7 @@ function RoleTable() {
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold text-gray-700">Role Management</h2>
           <button
-            className="bg-blue-500 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-blue-600 transition duration-300"
+            className="bg-slate-500 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-gray-600 transition duration-300"
             onClick={() => setShowForm(true)}
           >
             {editingRole ? "Edit Role" : "Add Role"}
@@ -66,7 +66,7 @@ function RoleTable() {
         {/* Roles Table */}
         <div className="overflow-x-auto">
           <table className="table-auto w-full bg-gray-50 shadow-md rounded-lg">
-            <thead className="bg-gradient-to-r from-blue-500 to-green-700 text-white">
+            <thead className="bg-gradient-to-r from-slate-800 to-gray-400 text-white">
               <tr>
                 <th className="px-4 py-3 text-left">Role Name</th>
                 <th className="px-4 py-3 text-left">Permissions</th>
@@ -87,7 +87,7 @@ function RoleTable() {
                   </td>
                   <td className="px-4 py-3 border flex gap-2">
                     <button
-                      className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-grey-600 transition"
+                      className="bg-slate-500 text-white px-3 py-1 rounded hover:bg-grey-600 transition"
                       onClick={() => {
                         setEditingRole(role);
                         setShowForm(true);
@@ -96,7 +96,7 @@ function RoleTable() {
                       Edit
                     </button>
                     <button
-                      className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition"
+                      className="bg-red-400 text-white px-3 py-1 rounded hover:bg-red-600 transition"
                       onClick={() => handleDelete(role.id)}
                     >
                       Delete

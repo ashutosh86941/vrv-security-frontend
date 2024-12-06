@@ -11,7 +11,7 @@ function Dashboard() {
         <button
           className={`mx-2 px-6 py-2 rounded-full font-semibold ${
             activeTab === "users"
-              ? "bg-blue-500 text-white"
+              ? "bg-slate-500 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
           }`}
           onClick={() => setActiveTab("users")}
@@ -21,7 +21,7 @@ function Dashboard() {
         <button
           className={`mx-2 px-6 py-2 rounded-full font-semibold ${
             activeTab === "roles"
-              ? "bg-blue-500 text-white"
+              ? "bg-slate-500 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
           }`}
           onClick={() => setActiveTab("roles")}

@@ -68,7 +68,7 @@ function RoleForm({ onClose, onAdd }) {
             </button>
             <button
               type="submit"
-              className="bg-green-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              className="bg-green-500 text-white px-4 py-2 rounded hover:bg-gray-600"
             >
               Save Role
             </button>
